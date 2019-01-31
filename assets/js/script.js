@@ -1,3 +1,6 @@
+// pour masquer la page au démarrage, du coup la propriété display est en dehors d'une fonction 
+document.getElementById('text').style.display = 'none';
+
 // afficher ou masquer le texte en fonction de l'ancre.
 // 1ere fonction pour afficher
 // La propriété display définit le type d'affichage utilisée pour le rendu d'un élément
